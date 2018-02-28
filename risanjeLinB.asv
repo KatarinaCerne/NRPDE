@@ -1,0 +1,6 @@
+h = 0.05;
+del = -1:h:1;
+[X1,Y1]= meshgrid(del,del);
+
+surf(X1,Y1,u1(X1,Y1))
+
